@@ -1,0 +1,28 @@
+body {
+  /*background: url(/splash.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background: rgba(242, 242, 242, 1);
+}
+
+.dialog {
+  background: rgba(242, 242, 242, 1);
+  background: linear-gradient(0deg, rgba(242, 242, 242, 1), rgba(255, 255, 255, 1));
+  padding: 32px;
+  padding-top: 16px;
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-left: calc(50vw - 256px);
+  margin-top: calc(50vh - 256px);
+  height: 384px;
+  width: 512px;
+  border-radius: 2px;
+  text-align: center;
+  color: #333 !important;
+}
+
+.forms {
+  text-align: left;
+}

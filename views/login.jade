@@ -1,0 +1,16 @@
+extends ./layout.jade
+block includes
+  link(rel="stylesheet", href="/css/login.css")
+block content
+  .dialog
+    img(src="ballotexpress.png", width="384px")
+    h6='Login'
+    form.forms(method="post", action="")
+      section
+        label='Email:'
+        input(type="email", name="email")
+      section
+        label='Password:'
+        input(type="password", name="password")
+      section
+        button(type="black")='Login'
